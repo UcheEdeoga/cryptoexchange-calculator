@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Excahnge Rate Calculator </title>
+</head>
+<body>
+    <img src="img/Bitcoinners.png" alt="" class="money-img">
+    <h1><span><b>Crypto</b></span> Exchange Rate Calculator</h1>
+    <p> Choose the Coin and the amount to get the excahnge rate</p>
+
+    <div class="container">
+        <div class="currency">
+            <select id="currency-one">
+          <option value="BTC" selected>BTC</option>
+            <option value="ETH">ETH</option>
+            <option value="DASH">DASH</option>
+            <option value="DOGE">DOGE</option>
+            <option value="BASH">BASH</option>
+            <option value="DOGE">DOGE</option>
+            <option value="USDT">USDT</option>
+            
+          
+            </select>
+            <input type="number"  id="amount-one" placeholder="1" value="1">
+        </div>
+
+        <div class="swap-rate-container">
+            <button class="btn" id="swap">
+                Swap
+            </button>
+            <div class="rate" id="rate"></div>
+        </div>
+
+        <div class="currency">
+            <select id="currency-two">
+            <option value="USD" selected>USD</option>
+         
+            
+            </select>
+            <input type="number"  id="amount-two" placeholder="0">
+        </div>
+        
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
